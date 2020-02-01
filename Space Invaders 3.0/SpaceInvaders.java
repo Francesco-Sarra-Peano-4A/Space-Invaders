@@ -8,7 +8,7 @@ import javax.swing.JFrame;
 import javax.swing.WindowConstants;
 /**
  *
- * @author cataldi.lorenzo
+ * @author francesco.sarra
  */
 public class SpaceInvaders extends JFrame {
 private Space space = new Space();
