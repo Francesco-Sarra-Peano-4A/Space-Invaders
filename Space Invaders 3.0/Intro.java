@@ -13,7 +13,7 @@ import java.awt.image.BufferStrategy;
 
 /**
  *
- * @author cataldi.lorenzo
+ * @author sarra.francesco
  */
 class Intro extends Space {
 
@@ -39,11 +39,11 @@ class Intro extends Space {
         g.setColor(Color.black);
         g.fillRect(0, 0, 800, 600);
 
-        g.setColor(Color.yellow);
+        g.setColor(Color.blue);
         g.setFont(new Font("Bold", Font.PLAIN, 40 + i));
         g.drawString("Space Invaders", 100 + i, 100 + i);
         g.setFont(new Font("Bold", Font.PLAIN, 10 + i));
-        g.drawString("          by Lorenzo Cataldi", 110 + i + i, 110 + i + i);
+        g.drawString("          by Francesco Sarra", 110 + i + i, 110 + i + i);
         g.dispose();
         strategy.show(); //f
 
